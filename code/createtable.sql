@@ -6,4 +6,4 @@ create table if not exists t1(
 
 truncate table t1;
 
-insert into t1 values('Ansible Training');
+insert into t1 values('Ansible Training Day 4 thursday');
