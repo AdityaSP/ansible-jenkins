@@ -8,5 +8,5 @@
  while ($row = mysqli_fetch_assoc($res)){
         echo "<h1> " . $row["name"] . "</h1>";
  }
- echo "Pitching in from " . gethostname();
+ echo "Pitching in from <h1 style='color:red'>" . gethostname() . "</h1>";
 ?>
