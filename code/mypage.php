@@ -3,7 +3,7 @@
  if (!$conn) {
         die("Connection failed");
  }
- echo "Connected Successfully";
+ echo "Connected Successfully - New Code";
  $res = mysqli_query($conn, "select name from t1");
  while ($row = mysqli_fetch_assoc($res)){
         echo "<h1> " . $row["name"] . "</h1>";
